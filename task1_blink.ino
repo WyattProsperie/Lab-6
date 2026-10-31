@@ -1,6 +1,5 @@
 // Lab 6 - Task 1: Blink an external LED once per second
-// Circuit: Arduino pin 8 -> 330 ohm resistor -> LED anode (long leg)
-//          LED cathode (short leg) -> GND
+// Circuit: Arduino pin 8 -> 330 ohm resistor -> LED -> GND
 
 const int LED_PIN = 8;          // digital output pin driving the LED
 
